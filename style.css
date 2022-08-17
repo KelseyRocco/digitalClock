@@ -1,6 +1,6 @@
 body {
   align-items: center;
-  background: url("honeyCombBackground.jpg");
+  background: url("./assets/honeyCombBackground.jpg");
   background-size: cover;
   display: flex;
   flex-direction: column;
