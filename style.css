@@ -1,0 +1,58 @@
+body {
+  align-items: center;
+  background: url("honeyCombBackground.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  height: 100vh;
+  justify-content: center;
+  margin: 0;
+}
+
+h2 {
+  color: white;
+  font-size: 14px;
+  letter-spacing: 4px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.clock {
+  display: flex;
+}
+
+.clock div {
+  margin: 5px;
+  position: relative;
+}
+
+.clock span {
+  align-items: center;
+  background-color: purple;
+  color: white;
+  display: flex;
+  font-size: 50px;
+  height: 80px;
+  justify-content: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  width: 100px;
+}
+
+.clock .text {
+  background: darkblue;
+  font-size: 10px;
+  height: 30px;
+  letter-spacing: 2px;
+  opacity: 0.8;
+  text-transform: uppercase;
+}
+
+.clock #ampm {
+  background: lightblue;
+  bottom: 0;
+  font-size: 20px;
+  height: 30px;
+  position: absolute;
+  width: 60px;
+}
